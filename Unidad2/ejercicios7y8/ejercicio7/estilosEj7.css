@@ -1,0 +1,124 @@
+ul,ul li{
+  margin:0;padding:0;list-style:none;
+}
+h1,h2,h3,p,form{
+  margin:0;padding:0;
+}
+.clear{
+  clear:both;
+}
+img{
+  border:none;
+}
+#contenedor{
+  width:90%;max-width:900px;
+  width:expression(document.body.clientWidth> 901? "900px":"auto")
+  ;margin:0 auto;
+}
+#cabecera,#menu,#lateral,#contenido,#contenido #principal,#contenido #secundario,#pie{
+  border:2px
+  solid #777;
+  padding: .5em;
+}
+#cabecera{
+  border: 1em;
+  clear:both;
+}
+#menu{
+  clear:both;
+  padding: .5em;
+
+}
+#lateral{
+  float:left;width:20%;
+}
+#contenido{
+  float:right;width:78%;
+}
+#contenido #principal{
+  float:left;width:78%;
+}
+#contenido #secundario{
+  padding:.5em;
+  float:right;width:20%;
+  border: 1px;
+  border-style: solid;;
+  border-color: #CC6600;
+}
+#pie{
+  clear:both;
+}
+#cabecera #logo{
+  float:left;
+}
+#cabecera #buscador{
+  float:right;
+}
+#menu ul#menu_principal li{
+  display:inline;float:left;
+}
+#contenido #principal .articulo img{
+  width:100px;
+  float:left;
+  margin: .5em;
+}
+#pie .enlaces{
+  float:left;
+}
+#pie .copyright{
+  float:right;
+}
+#cabecera,#menu,#lateral,#lateral #noticias,#lateral #publicidad,#contenido,#contenido #principal,#pie{
+  padding:.5em;
+  border: none;
+}
+#lateral{
+  padding:0;
+}
+#cabecera{
+  padding:1em;
+}
+#menu{
+  margin-bottom:.5em;
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #004C99;
+}
+#contenido{
+  width:77%;padding:0;
+}
+#contenido #principal{
+  width:73%;
+}
+#pie{
+  padding: 0em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  margin-top:1em;
+  border-top: 1px;
+  border-bottom: 1px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-color: #C5C5C5;
+  border-bottom-color: #C5C5C5;
+}
+#contenido #principal .articulo{
+  margin-bottom:1em;
+
+
+}
+#contenido #principal .articulo img{
+  margin:.5em;
+}
+#lateral #publicidad{
+  margin-top:1em;
+  border: 1px;
+  border-style: dashed;
+  border-color: #CC6600;
+
+}
+#lateral #noticias{
+  border: 1px;
+  border-style: dashed;
+  border-color: #C5C5C5;
+}
