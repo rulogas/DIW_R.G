@@ -1,0 +1,74 @@
+body{
+  color: rgb(13, 18, 135);
+  font-family: Verdana;
+  line-height: 1.4em;
+  font-size: 0.9em;
+  background-image: url("fondo.jpg");
+}
+h1{
+  text-align: center;
+  text-transform: capitalize;
+  border: 1px;
+  border-style: solid;
+  border-radius: 200px;
+  padding: 14px;
+  background-image: url("fondo-h1.jpg");
+  color: white;
+  border-color: white;
+}
+p{
+  text-indent: 40px;
+}
+a{
+  text-decoration: none;
+}
+
+a.pdf{
+  color: #E37529;
+  padding: 0 0 0 18px;
+  background: url("pdf.png") no-repeat left center;
+  background-size: 15px;
+}
+a:visited{
+  color: rgb(15, 82, 4);
+  font-style: italic;
+
+}
+table{
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+table *{
+
+
+  text-align: center;
+  color: black;
+  border: 2px solid black;
+}
+tr:nth-child(even){
+  background-color: lightgrey;
+}
+tr:nth-child(odd){
+  background-color: white;
+}
+td.css{
+  background: url(imagenes/css.png) no-repeat left center;
+}
+td.html{
+  background: url(imagenes/html.png) no-repeat left center;
+}
+td.css, td.html{
+  background-size: 50px 50px;
+  padding-left: 53px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  vertical-align: center;
+}
+.css:active, .html:active{
+  background-color:  #FFFF66;
+}
+span{
+  font-style: italic;
+  font-family: Comic;
+  color: black;
+}

@@ -1,0 +1,36 @@
+body{
+  color: rgb(13, 18, 135);
+  font-family: Verdana;
+  line-height: 1.4em;
+  font-size: 0.9em;
+  background-image: url("fondo.jpg");
+}
+h1{
+  text-align: center;
+  text-transform: capitalize;
+  border: 1px;
+  border-style: solid;
+  border-radius: 200px;
+  padding: 14px;
+  background-image: url("fondo-h1.jpg");
+  color: white;
+  border-color: white;
+}
+p{
+  text-indent: 40px;
+}
+a{
+  text-decoration: none;
+}
+
+a.pdf{
+  color: #E37529;
+  padding: 0 0 0 18px;
+  background: url("pdf.png") no-repeat left center;
+  background-size: 15px;
+}
+a:visited{
+  color: rgb(15, 82, 4);
+  font-style: italic;
+
+}

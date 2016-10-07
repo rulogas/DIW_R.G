@@ -1,0 +1,25 @@
+body{
+  color: rgb(13, 18, 135);
+  font-family: Verdana;
+  line-height: 1.4em;
+  font-size: 0.9em;  
+}
+h1{
+  text-align: center;
+  text-transform: capitalize;
+  border: 1px;
+  border-style: solid;
+  border-radius: 200px;
+  padding: 14px;
+}
+p{
+  text-indent: 40px;
+}
+a{
+  text-decoration: none;
+}
+a:visited{
+  color: rgb(15, 82, 4);
+  font-style: italic;
+
+}
