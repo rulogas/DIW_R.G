@@ -1,0 +1,40 @@
+div {
+  margin: .4em 0;
+}
+div label {
+  width: 25%;
+  float: left;
+}
+input{
+  border-radius: 5px
+}
+select{
+  border-radius: 5px
+}
+select:focus{
+  outline-color: rgb(168, 63, 224);
+  background: grey;
+}
+textarea{
+  height: 40px;
+  border-radius: 5px;
+  overflow: scroll;
+
+}
+textarea:focus{
+  outline-color: rgb(168, 63, 224);
+  background: grey;
+}
+input:focus{
+  outline-color: rgb(168, 63, 224);
+  background: grey;
+}
+input.pass{
+  height: 10mm;
+}
+p.especial{
+  border: 1px dotted black;
+  padding: .8em;
+  font-style: italic;
+
+}
