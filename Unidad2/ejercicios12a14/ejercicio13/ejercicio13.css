@@ -33,11 +33,11 @@ ul.Submenu{
 ul li#Submenu:hover ul{
   display: block;
   background: #F4F4F4;
-
+  color: green;
 
 }
 ul li#Submenu:hover{
-  color: green;
+
 }
 
 ul.Submenu li{

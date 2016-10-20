@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Practica1</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="container">
+      <header id="cabecera">
+        <h1>
+          <img src="imagen.png"/>
+          Cabecera del sitio web
+        </h1>
+      </header>
+      <nav id="menu">
+        <ul>
+          <li><a href="#">inicio</a></li>
+          <li id="Submenu"><a href="#">categoria1</a>
+            <ul class="Submenu">
+              <li><a href="#">Submenu1</a></li>
+              <li><a href="#">Submenu2</a></li>
+              <li class="inicio"><a href="#">Submenu3</a>
+                <ul class="Subsubmenu">
+                  <li><a href="#">Submenu1</a></li>
+                  <li><a href="#">Submenu2</a></li>
+                  <li><a href="#">Submenu3</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li id="Submenu"><a href="#">categoria2</a>
+            <ul class="Submenu">
+              <li><a href="#">Submenu1</a></li>
+              <li><a href="#">Submenu2</a></li>
+              <li class="inicio"><a href="#">Submenu3</a>
+                <ul class="Subsubmenu">
+                  <li><a href="#">Submenu1</a></li>
+                  <li><a href="#">Submenu2</a></li>
+                  <li><a href="#">Submenu3</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+      <div class="todo">
+
+
+      <section id="seccion">
+        <article>
+          <header>
+            <hgroup>
+              <h1>Titulo de la primera entrada</h1>
+              <h2>Subtitulo de la primera entrada</h2>
+            </hgroup>
+            <time datetime="2016-10-10" pubdate>publicado 10-10-2016</time>
+          </header>
+          Este es el texto de mi primera entrada
+          <figure>
+            <img src="http://bloginteligenciacolectiva.com/wp-content/uploads/2013/08/blogs-bloguers.jpg"/>
+            <figcaption>
+              Este es el caption de la imagen
+            </figcaption>
+          </figure>
+          <footer>Comentarios(0)</footer>
+        </article>
+        <article>
+          <header>
+            <hgroup>
+              <h1>Titulo de la segunda entrada</h1>
+              <h2>Subtitulo de la segunda entrada</h2>
+            </hgroup>
+            <time datetime="2016-10-10" pubdate>publicado 10-10-2016</time>
+          </header>
+          Este es el texto de mi segunda entrada
+          <footer>Comentarios(0)</footer>
+        </article>
+      </section>
+      <aside id="columna">
+      <nav>
+        <ul>
+          <li id="SubmenuLateral"><span class="derecha">►</span><span class="bajo">▼</span><a href="#">Enero</a>
+            <ul class="SubmenuLateral">
+              <li><a href="#">Submenu1</a></li>
+              <li><a href="#">Submenu2</a></li>
+            </ul>
+          </li>
+          <li id="SubmenuLateral"><span class="derecha">►</span><span class="bajo">▼</span><a href="#">Febrero</a>
+            <ul class="SubmenuLateral">
+              <li><a href="#">Submenu1</a></li>
+              <li><a href="#">Submenu2</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      </aside>
+      </div>
+      <footer id="pie">
+        Derechos Reservados &copy; 2016-2020
+      </footer>
+    </div>
+  </body>
+</html>
