@@ -82,12 +82,23 @@ article footer{
   padding: 20px;
   background: #CCCCCC;
 
+
 }
 #pie{
   clear: both;
   text-align: center;
   padding: 20px;
   border-top: 2px solid #999999;
+}
+#SubmenuLateral a{
+  text-decoration: none;
+  color: black;
+}
+#SubmenuLateral:hover a.blanco{
+  color: white;
+}
+ul.SubmenuLateral:hover a{
+  color:white;
 }
 ul.SubmenuLateral{
   display: none;
@@ -118,6 +129,7 @@ li#Submenu:hover ul{
 span.bajo{
   display: none;
 }
+
 li#SubmenuLateral:hover span.bajo{
   visibility: visible;
   display:inline;
