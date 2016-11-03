@@ -1,0 +1,48 @@
+.cabecera {
+  background-color: #BDBDBD;
+}
+
+.navbar-brand {
+  color: #55773E!important;
+  font-weight: bold;
+  text-shadow: 1px 1px black;
+}
+
+.plato {
+  text-align: center;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+}
+
+#calamares header div:nth-child(2){
+  background-color: #F6A081;
+}
+
+#bravas header div:nth-child(2){
+  background-color: #F4DA86;
+}
+
+#tortilla header div:nth-child(2){
+  background-color: #FC2A2F;
+  color: white;
+}
+
+body div article > div {
+  background-color: #BDBDBD;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+article {
+  padding-bottom: 10px;
+}
+
+#myNavbar ul li a {
+  color: black;
+}
+
+@media (min-width: 767px) {
+  #myNavbar ul {
+    display: none;
+  }
+}
