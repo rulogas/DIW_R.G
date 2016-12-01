@@ -1,0 +1,141 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+*[class*="col-"] {
+  float: left;
+  padding: 5px;
+}
+
+@media (min-width: 640px) {
+  .col-lg-1 {width: 8.33%;}
+  .col-lg-2 {width: 16.66%;}
+  .col-lg-3 {width: 25%;}
+  .col-lg-4 {width: 33%;}
+  .col-lg-5 {width: 41.66%;}
+  .col-lg-6 {width: 50%;}
+  .col-lg-7 {width: 58.33%;}
+  .col-lg-8 {width: 66.66%;}
+  .col-lg-9 {width: 74.99%;}
+  .col-lg-10 {width: 83.33%;}
+  .col-lg-11 {width: 91.66%;}
+  .col-lg-12 {width: 100%;}
+}
+
+@media (min-width: 321px) and (max-width: 639px) {
+  .col-md-1 {width: 8.33%;}
+  .col-md-2 {width: 16.66%;}
+  .col-md-3 {width: 25%;}
+  .col-md-4 {width: 33%;}
+  .col-md-5 {width: 41.66%;}
+  .col-md-6 {width: 50%;}
+  .col-md-7 {width: 58.33%;}
+  .col-md-8 {width: 66.66%;}
+  .col-md-9 {width: 74.99%;}
+  .col-md-10 {width: 83.33%;}
+  .col-md-11 {width: 91.66%;}
+  .col-md-12 {width: 100%;}
+}
+
+@media (max-width: 320px) {
+  .col-sm-1 {width: 8.33%;}
+  .col-sm-2 {width: 16.66%;}
+  .col-sm-3 {width: 25%;}
+  .col-sm-4 {width: 33%;}
+  .col-sm-5 {width: 41.66%;}
+  .col-sm-6 {width: 50%;}
+  .col-sm-7 {width: 58.33%;}
+  .col-sm-8 {width: 66.66%;}
+  .col-sm-9 {width: 74.99%;}
+  .col-sm-10 {width: 83.33%;}
+  .col-sm-11 {width: 91.66%;}
+  .col-sm-12 {width: 100%;}
+}
+
+
+div.contenedor, #hijo {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  float: none;
+  font-size: 2em;
+}
+
+#flecha {
+  width: 100%;
+  display: table-cell;
+}
+.cabecera {
+  display: table;
+}
+img {
+  width: 100%;
+
+}
+.telefono{
+   width: 128px;
+   height: 128px;
+   background: transparent url("iconninja-sprites.png");
+   background-position: 0px 0px;
+   float:left;
+}
+.telefono:hover{
+  opacity: 0.7;
+}
+.mail{
+  width: 128px;
+  height: 128px;
+  background: transparent url("iconninja-sprites.png");
+  background-position: 128px 0px;
+  float:left;
+}
+.mail:hover{
+  opacity: 0.7;
+}
+.propia{
+  width: 30%;
+  height: 30%;
+
+}
+ul {
+    overflow: auto;
+}
+
+ul li {
+    list-style-type: none;
+    float: right;
+}
+
+ul li a i {
+    background: #205D7A;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 15%;
+    transition: all 0.2s ease-in-out;
+}
+.fa-facebook {
+    font-size: 1em;
+    background:#3b5998
+
+}
+.fa-linkedin {
+    font-size: 1em;
+    background:#007bb6
+}
+.fa-twitter {
+    font-size: 1em;
+    background:#00aced
+}
+.google-plus {
+    font-size: 1em;
+    background:#dd4b39
+}
+ul li a i:hover {
+    opacity: .7;
+}
