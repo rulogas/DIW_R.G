@@ -1,6 +1,6 @@
 * {
 	margin: 0px; padding: 0px;
-	font-family: arial, helvetica, sans-serif; color: #0bb664; background: #FFFFFF;
+	font-family: arial, helvetica, sans-serif; color: #252e00; background: #FFFFFF;
 	line-height: 1.3em;
 }
 
@@ -49,15 +49,15 @@ p span{
 }
 
 a {
-	color: #598eff; text-decoration: none; border-bottom: 1px dotted #598eff;
+	color: #e40024; text-decoration: none; border-bottom: 1px dotted #e40024;
 }
 
 a:visited {
-	color: #598eff; border-bottom: 1px solid #598eff;
+	color: #e40024; border-bottom: 1px solid #e40024;
 }
 
 a:focus, a:hover {
-	color: #003366; background: #CCCCCC; border-bottom: 1px solid #003366;
+	color: #e40024; background: #CCCCCC; border-bottom: 1px solid #003366;
 }
 
 #titulo {
@@ -141,4 +141,7 @@ a:focus, a:hover {
 .oculto {
   position: absolute;
   top: -5000px;
+}
+#abuela{
+	border-bottom: none;
 }
