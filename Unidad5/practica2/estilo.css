@@ -184,12 +184,11 @@ font-size: 0.6em;
 caption{
 	text-decoration: underline;
 }
-#ingredientes{
-	display: inline-block;
-	margin-left: 10%;
-}
+
 table {
 	border: 1px solid black;
+	display: inline-block;
+	margin-left: 10%;
 }
 table td{
 	border: 1px solid black;
